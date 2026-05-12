@@ -15,9 +15,6 @@ dependencies = [
   "python-dotenv>=1.0.1",
 ]
 
-[project.optional-dependencies]
-dev = ["pytest>=8.3.3"]
-
 [build-system]
 requires = ["setuptools>=75.6.0"]
 build-backend = "setuptools.build_meta"
